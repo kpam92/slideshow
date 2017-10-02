@@ -1,0 +1,36 @@
+.thumbnails {
+  max-width: 200px;
+}
+
+#active-image {
+  max-width: 400px;
+  transition: 'opacity 300ms ease-in-out';
+  opacity: 0,
+}
+#change-image {
+  max-width:20px;
+  transition-duration: 1.4s;
+}
+
+.active-container {
+  width:400px;
+  height: 400px;
+}
+
+.example-enter {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
